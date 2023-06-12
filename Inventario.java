@@ -156,7 +156,7 @@ public class Inventario {
             System.out.println("Valor total del inventario: $" + valorTotalInventario);
             System.out.println("----------------------------------------");
 
-            if (!historialVentas.isEmpty()) { // Verificar si hay ventas en el historial
+            if (!historialVentas.isEmpty()) { 
                 System.out.println("==== HISTORIAL DE VENTAS ====");
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
